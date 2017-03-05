@@ -93,7 +93,7 @@ function FixTable(TableID, FixColumnNumber, width, height) {
         $("#" + TableID + "_tableColumn").css("height", $("#" + TableID + "_tableColumn table").height());
         $("#" + TableID + "_tableData").css("height", $("#" + TableID + "_tableColumn table").height() + 17);
     }
- 
+    
     $("#" + TableID + "_tableFix").offset($("#" + TableID + "_tableLayout").offset());
     $("#" + TableID + "_tableHead").offset($("#" + TableID + "_tableLayout").offset());
     $("#" + TableID + "_tableColumn").offset($("#" + TableID + "_tableLayout").offset());
